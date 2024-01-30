@@ -1,0 +1,37 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url('../fondo-body.png');
+  font-family: 'MedievalSharp', cursive;
+  color: #ffc34f;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
+  -webkit-box-shadow: inset -2px 4px 50px 50px rgba(0, 0, 0, 0.57);
+  box-shadow: inset -2px 4px 50px 50px rgba(0, 0, 0, 0.57);
+  cursor: url('../cursor.png'), auto;
+}
+@media (width > 480px) {
+  main {
+    max-height: 80vh;
+  }
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+}
+
+@media (width < 480px) {
+  #root {
+    background-size: cover;
+    height: 100%;
+  }
+  main {
+    position: relative;
+  }
+}

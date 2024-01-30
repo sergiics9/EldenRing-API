@@ -1,0 +1,30 @@
+.addButton {
+  text-decoration: none;
+  border: 1px solid transparent;
+  border-radius: 25px;
+  box-shadow: 10px 11px 5px 0px rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 10px 11px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 11px 5px 0px rgba(0, 0, 0, 0.75);
+  font-family: 'MedievalSharp', cursive;
+  color: #ffc34f;
+  font-size: 1.2rem;
+  padding: 1rem;
+  position: relative;
+}
+
+@media (width < 480px) {
+  .addButton {
+    text-decoration: none;
+    position: relative;
+    bottom: 1rem;
+    left: 2rem;
+    border: 1px solid transparent;
+    border-radius: 25px;
+    box-shadow: 10px 11px 5px 0px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: 10px 11px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 11px 5px 0px rgba(0, 0, 0, 0.75);
+    font-family: 'MedievalSharp', cursive;
+    color: #ffc34f;
+    padding: 1rem;
+  }
+}

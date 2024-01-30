@@ -1,0 +1,45 @@
+@media (width < 500px) {
+  button {
+    background: transparent;
+    border: 1px solid transparent;
+  }
+  .image-birds-container {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .image-birds-pagination-previous {
+    transform: rotate(0deg);
+    cursor: pointer;
+  }
+
+  .image-birds-pagination-next {
+    transform: rotate(260deg);
+    cursor: pointer;
+  }
+}
+
+@media (width > 500px) {
+  button {
+    background: transparent;
+    border: 1px solid transparent;
+  }
+  .image-birds-container {
+    display: flex;
+    background: none;
+    position: relative;
+    justify-content: space-between;
+    bottom: 40vh;
+    width: 100%;
+  }
+
+  .image-birds-pagination-previous {
+    transform: rotate(0deg);
+    cursor: pointer;
+  }
+
+  .image-birds-pagination-next {
+    transform: rotate(260deg);
+    cursor: pointer;
+  }
+}
